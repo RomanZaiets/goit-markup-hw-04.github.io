@@ -245,9 +245,7 @@
     background: var(--white-two);
     border-radius: 4px;
     }
-    .about-icon {
-    }
-     /* --------DOING---------- */
+    /* --------DOING---------- */
     .doing{
     padding-top: 0;
     }
@@ -331,8 +329,8 @@
     border-color:var(--blue-two)
     }
     .customers-link:is(:hover, :focus) .customers-icon{
-      fill:var(--blue-two)
-      }
+    fill:var(--blue-two)
+    }
     /* -----PORTFOLIO--------- */
     .portfolio{
     padding-top: 96px;
@@ -361,8 +359,11 @@
     border-top: none;   
     }
     .portfolio-item{
-    flex-basis: calc((100% - 2*24px)/3);    
-  }
+    flex-basis: calc((100% - 2*24px)/3); 
+    }
+    .portfolio-item:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    } 
     /* ---------FOOTER--------- */
     .footer{
     padding-top: 100px;
@@ -370,9 +371,8 @@
     background-color: var(--background-hero-footer-color)
     }
     .footer-container{
-      display: flex;
-      gap: 120px
-      ;
+    display: flex;
+    gap: 120px;
     }
     .footer-logo {
     display: block;
@@ -403,8 +403,8 @@
     gap: 16px;
     }
     .footer-soc-item {
-      width: 40px;
-      height: 40px;
+    width: 40px;
+    height: 40px;
     }
     .footer-soc-link {
     width: 100%;
@@ -419,5 +419,5 @@
     fill:var(--white-one)  
     }
     .footer-soc-link:hover, .footer-soc-link:focus{
-      background-color:var(--green-one);
+    background-color:var(--green-one);
     }
